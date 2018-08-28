@@ -1,0 +1,65 @@
+<section>
+    <div class="mdc-layout-grid">
+        <a routerLinkActive="active" class="cursor-pointer font-size-20" (click)="setLocation()">
+            <span class="font-size-20" *ngIf="locationName != defaultLocation">Back to </span>{{defaultLocation}}</a>
+    </div>
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-8">
+                <div class="mdc-layout-grid__inner">
+                    <div class="mdc-layout-grid__cell--span-12">
+                        <agm-map class="map-height" [zoom]="15" [latitude]="lat" [longitude]="lng" (dblclick)="isSingleClick = false;" (mapClick)="mapClickEvent($event)">
+                            <agm-marker [latitude]="lat" [longitude]="lng">
+                                <agm-info-window>{{locationName}}, {{locationAddress}}</agm-info-window>
+                            </agm-marker>
+                        </agm-map>
+                    </div>
+                    <div class="mdc-layout-grid__cell slideshow-icon">
+                        <i *ngIf="!slideStarted" class="material-icons" (click)="startSlides()">slideshow</i>
+                        <i *ngIf="slideStarted" class="material-icons" (click)="stopSlides()">stop</i>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell--span-4">
+                <div>
+                    <span class="heading">Location Details</span>
+                </div>
+                <div class="info-panel">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-3">
+                            <span>Name:</span>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-9">
+                            <span>{{locationName}}</span>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-3">
+                            <span>Latitude:</span>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-9">
+                            <span>{{lat}}</span>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-3">
+                            <span>Longitude:</span>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-9">
+                            <span>{{lng}}</span>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-3">
+                            <span>Address:</span>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-9">
+                            <span>{{locationAddress}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

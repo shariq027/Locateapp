@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Taj Mahal",
+        "lat": "27.1750",
+        "lon": "78.0422"
+    },
+    {
+        "id": 2,
+        "name": "Red Fort",
+        "lat": "28.6562",
+        "lon": "77.2410"
+    },
+    {
+        "id": 3,
+        "name": "Nizamia General Hospital",
+        "lat": "17.3615636",
+        "lon": "78.4724758"
+    },
+    {
+        "id": 4,
+        "name": "Golconda",
+        "lat": "17.3833",
+        "lon": "78.4011"
+    },
+    {
+        "id": 5,
+        "name": "Sanjay Van",
+        "lat": "28.5244",
+        "lon": "77.1855"
+    },
+    {
+        "id": 6,
+        "name": "Park-Golden Temple",
+        "lat": "31.621010",
+        "lon": "74.877960"
+    },
+    {
+        "id": 7,
+        "name": "Dockyard Harbour",
+        "lat": "18.9220",
+        "lon": "72.8347"
+    },
+    {
+        "id": 8,
+        "name": "Hussain Sagar",
+        "lat": "17.4239",
+        "lon": "78.4738"
+    },
+    {
+        "id": 9,
+        "name": "Tube Bell Park",
+        "lat": "26.85",
+        "lon": "80.916667"
+    },
+    {
+        "id": 10,
+        "name": "Christ Church College",
+        "lat": "26.466667",
+        "lon": "80.35"
+    },
+    {
+        "id": 11,
+        "name": "Janata Nagar Cemetery",
+        "lat": "22.716667",
+        "lon": "75.833333"
+    },
+    {
+        "id": 12,
+        "name": "Kaushalya Med Trust Hosp",
+        "lat": "19.2",
+        "lon": "72.966667"
+    },
+    {
+        "id": 13,
+        "name": "Bohra Cemetery",
+        "lat": "23.266667",
+        "lon": "77.4"
+    },
+    {
+        "id": 14,
+        "name": "Visakhapatnam Port Area",
+        "lat": "17.7",
+        "lon": "83.3"
+    },
+    {
+        "id": 15,
+        "name": "Finolex Cable",
+        "lat": "18.6279288",
+        "lon": "73.8009829"
+    },
+    {
+        "id": 16,
+        "name": "Maharaja Sayaji Rao University",
+        "lat": "22.3",
+        "lon": "73.2"
+    },
+    {
+        "id": 17,
+        "name": "Ambedkar Park",
+        "lat": "28.666667",
+        "lon": "77.433333"
+    },
+    {
+        "id": 18,
+        "name": "Sita Nagar Park",
+        "lat": "30.9",
+        "lon": "75.85"
+    },
+    {
+        "id": 19,
+        "name": "Red Fort Agra",
+        "lat": "27.183333",
+        "lon": "78.016667"
+    },
+    {
+        "id": 20,
+        "name": "Godavari",
+        "lat": "20.0110224",
+        "lon": "73.7903373"
+    },
+    {
+        "id": 21,
+        "name": "Sector 28 Community Park",
+        "lat": "28.433333",
+        "lon": "77.316667"
+    }
+]

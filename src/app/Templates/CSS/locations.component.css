@@ -1,0 +1,14 @@
+.table-padding{
+    padding: 10px 0px 10px 0px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+.mdc-layout-grid{
+    margin: 0px 26px 0px 26px;
+}
+section{
+    margin-top: 50px;
+}

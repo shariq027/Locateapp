@@ -1,0 +1,57 @@
+<!-- <div class="container">
+    <div>
+        <span class="heading">Locations Lookup</span>
+    </div>
+    <div class="table-padding">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Latitude</th>
+                    <th scope="col">Longitude</th>
+                </tr>
+            </thead>
+            <tbody *ngIf="locations && locations.length > 0">
+                <tr *ngFor="let location of locations">
+                    <td>
+                        <a [routerLink]="[location.id]" routerLinkActive="active">{{location.name}}</a>
+                    </td>
+                    <td>{{location.lat}}</td>
+                    <td>{{location.lon}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div> -->
+
+
+<section id="layout-grid-in-fluid-container">
+    <div class="mdc-layout-grid">
+        <div>
+            <div>
+                <span class="heading">Locations Lookup</span>
+            </div>
+            <div class="table-padding">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Latitude</th>
+                            <th scope="col">Longitude</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngIf="locations && locations.length > 0">
+                        <tr *ngFor="let location of locations">
+                            <td>
+                                <a [routerLink]="[location.id]" routerLinkActive="active">{{location.name}}</a>
+                            </td>
+                            <td>{{location.lat}}</td>
+                            <td>{{location.lon}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

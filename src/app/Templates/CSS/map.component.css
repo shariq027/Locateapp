@@ -1,0 +1,33 @@
+.map-height{
+    height: 520px;
+}
+.slideshow-icon{
+    position: absolute;
+}
+.material-icons{
+    font-size: 35px;
+    cursor: pointer;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.info-panel{
+    padding:10px 0px 10px 0px;
+    line-height: 2em;
+}
+.padding-10{
+    padding: 10px 0px 10px 0px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.mdc-layout-grid{
+    padding: 12px;
+}
+section{
+    margin-top: 70px;
+}
