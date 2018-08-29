@@ -10,7 +10,7 @@
                     <div class="mdc-layout-grid__cell--span-12">
                         <agm-map class="map-height" [zoom]="15" [latitude]="lat" [longitude]="lng" (dblclick)="isSingleClick = false;" (mapClick)="mapClickEvent($event)">
                             <agm-marker [latitude]="lat" [longitude]="lng">
-                                <agm-info-window>{{locationName}}, {{locationAddress}}</agm-info-window>
+                                <agm-info-window [isOpen]="true" >{{locationName}}, {{locationAddress}}</agm-info-window>
                             </agm-marker>
                         </agm-map>
                     </div>
